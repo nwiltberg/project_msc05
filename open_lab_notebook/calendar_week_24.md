@@ -1,15 +1,15 @@
-## Calendar week 24 - goals & tasks
+# Calendar week 24 - goals & tasks
 
-# Goals & tasks
+## Goals & tasks
 - revision of the github repository
 - add descriptions
 - continue to explore data
 
-# Completed tasks
+## Completed tasks
 - 
 
-# Problems
+## Problems
 - 
 
-# Goals $ tasks for next week
+## Goals $ tasks for next week
 - 
