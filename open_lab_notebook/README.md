@@ -1,0 +1,1 @@
+# Description and structure of the open lab notebook
