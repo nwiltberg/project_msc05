@@ -1,6 +1,6 @@
 # Functional connectivity in patients with adhd
 
-#Overwiew
+# Overwiew
 
 This is a research project as part of the master's degree in psychology at the Goethe University in Frankfurt am Main. 
 The aim of this project is to investigate functional connectivity in patients with adhd using resting state fmri data.
