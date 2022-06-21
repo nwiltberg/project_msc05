@@ -12,4 +12,4 @@
 - 
 
 ## Goals $ tasks for next week
-- 
+- continue to explore data
