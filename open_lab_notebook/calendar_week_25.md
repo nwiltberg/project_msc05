@@ -5,7 +5,7 @@
 - continue to explore data
 
 ## Completed tasks
-- 
+- added a description of the open lab notebook and code
 
 ## Problems
 - 
