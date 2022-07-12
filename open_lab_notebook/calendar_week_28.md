@@ -12,8 +12,8 @@
 - share the link to the project presentation
 
 ## Completed tasks
-- updates open_lab_notebook
-- revision of the presentation
+- updated open_lab_notebook (0:15)
+- revision of the presentation (1:00)
 - shared link to the project presentation in github
 
 ## Problems
