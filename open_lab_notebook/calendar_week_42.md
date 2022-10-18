@@ -3,9 +3,11 @@
 ## Goals & tasks
 - get an overview of whats next
 - update github
+- add more comments in jupyter notebooks
 
 ## Completed tasks
--
+- refreshed how to update the github repository (15 Min.)
+- looked over the jupyter notebooks (30 Min.)
 
 ## Problems
 -
@@ -17,4 +19,3 @@
     -  how would the `connectivity matrices` be utilized within the `analyzes`?
         - can they be used "as-is"?
         - if not, what should be changed?
-- add more comments in jupyter notebooks
