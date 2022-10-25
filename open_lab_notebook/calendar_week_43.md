@@ -10,7 +10,7 @@
         - if not, what should be changed?
 
 ## Completed tasks
-- 
+- added comments in the jupyter notebook 'data exploration' (1 hour)
 
 ## Problems
 -
