@@ -15,5 +15,5 @@
 ## Problems
 -
 
-## Goals $ tasks for next week
+## Goals & tasks for next week
 - 
