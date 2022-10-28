@@ -3,6 +3,7 @@
 ## Goals & tasks
 - add more comments in jupyter notebooks
 - create a loop that computes a correlation matrix for all participant
+- go through lecture about model evaluation and cross-validation
 - think about this:
     - what do the `connectivity matrices` reflect? 
     -  how would the `connectivity matrices` be utilized within the `analyzes`?
