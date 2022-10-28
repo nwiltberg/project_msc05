@@ -11,6 +11,7 @@
 
 ## Completed tasks
 - added comments in the jupyter notebook 'data exploration' (1 hour)
+- meeting to clarify the next steps (30 min.)
 
 ## Problems
 -
