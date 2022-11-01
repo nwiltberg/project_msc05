@@ -10,7 +10,7 @@
         - if not, what should be changed?
 
 ## Completed tasks
-- 
+- wrote loop that computes correlation matrix for all participants (1 hour)
 
 ## Problems
 -
