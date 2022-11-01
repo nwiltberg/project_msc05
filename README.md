@@ -9,5 +9,4 @@ Recent studies showed altered functional connectivity between certain brain netw
 
 Based on an open data set (ADHD-200) this project aims on answering this question using supervised and unsupervised machine learning.
 
-### Link to project presentation
-https://docs.google.com/presentation/d/1UJh4XY4eKIXit-_BGjx1UasjU_EtFTyh/edit?usp=sharing&ouid=109631268300274874568&rtpof=true&sd=true
+### [Link to project presentation](https://docs.google.com/presentation/d/1UJh4XY4eKIXit-_BGjx1UasjU_EtFTyh/edit?usp=sharing&ouid=109631268300274874568&rtpof=true&sd=true)
