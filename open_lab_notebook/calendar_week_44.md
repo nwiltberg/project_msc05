@@ -13,6 +13,7 @@
 - wrote loop that computes correlation matrix for all participants (1 hour)
 - lecture about deep learning (1,5 hours)
 - added more comments in jupyter notebook 'Data Analysis' (1 hour)
+- meeting about next steps and aim to get more participants (1,5 hours)
 
 ## Problems
 - too few participants?
