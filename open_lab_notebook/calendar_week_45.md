@@ -12,6 +12,7 @@
 
 ## Completed tasks
 - adapted correlation matrices (diagonal = 0 and diverging colormap) (1 hour)
+- tried to figure out how to load preprocessed open dataset ADHD-200 (1 hour)
 
 ## Problems
 - couldn't find a way to add the labels to the plotting of the connectome
