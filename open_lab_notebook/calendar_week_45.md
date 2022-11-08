@@ -11,7 +11,7 @@
 
 
 ## Completed tasks
-- 
+- adapted correlation matrices (diagonal = 0 and diverging colormap) (1 hour)
 
 ## Problems
 -
