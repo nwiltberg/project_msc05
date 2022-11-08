@@ -14,7 +14,7 @@
 - adapted correlation matrices (diagonal = 0 and diverging colormap) (1 hour)
 
 ## Problems
--
+- couldn't find a way to add the labels to the plotting of the connectome
 
 ## Goals & tasks for next week
 - 
