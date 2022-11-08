@@ -13,9 +13,12 @@
 ## Completed tasks
 - adapted correlation matrices (diagonal = 0 and diverging colormap) (1 hour)
 - tried to figure out how to load preprocessed open dataset ADHD-200 (1 hour)
+- loaded the phenotypic file of the whole ADHD-200 dataset (30 min)
+- lecture about deep learning (1 hour)
 
 ## Problems
 - couldn't find a way to add the labels to the plotting of the connectome
+- unclear how to get more data
 
 ## Goals & tasks for next week
 - 
