@@ -10,6 +10,7 @@
 
 ## Completed tasks
 - adapted the comments in the notebook data_exploration (30 min.)
+- tested how to load data from the website NITRC using code (30 min.)
 
 ## Problems
 - couldn't find a way to add the labels to the plotting of the connectome
