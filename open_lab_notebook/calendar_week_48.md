@@ -7,7 +7,8 @@
 
 
 ## Completed tasks
-- tried to implement supervised learning algorithm (1,5 hours)
+- tried to implement supervised learning algorithm (2 hours)
+- lecture about deep learning (1.5 hours)
 
 ## Problems
 - 
