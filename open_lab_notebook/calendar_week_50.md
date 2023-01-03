@@ -14,7 +14,7 @@
 - explain why plotting of the connectome is only left hemisphere (15 Min.)
 
 ## Problems
-- tried to figure out how to download output files from brainlife using pythin (1,5 hours)
+- tried to figure out how to download output files from brainlife using pythin (1,5 hours) -> posted a corresponding question in the brainlife slack channel
 
 ## Goals & tasks for next week
 - 
