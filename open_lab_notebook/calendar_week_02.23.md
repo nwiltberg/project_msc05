@@ -8,10 +8,10 @@
     - find out how to implement clustering without specifying the number of clusters
 
 ## Completed tasks
-- 
+- read alot about Support Vector Machines (to be able to explain, how I applied them - 1 hour)
 
 ## Problems
-- 
+- question: how do I know I if my data is linearly separable in order to decide if I can use a linear SVM?
 
 ## Goals & tasks for next week
 - 
