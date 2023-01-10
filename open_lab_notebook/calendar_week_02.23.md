@@ -9,9 +9,11 @@
 
 ## Completed tasks
 - read alot about Support Vector Machines (to be able to explain, how I applied them - 1 hour)
+- read about different clustering methods here: https://scikit-learn.org/stable/modules/clustering.html (30 min)
 
 ## Problems
 - question: how do I know I if my data is linearly separable in order to decide if I can use a linear SVM?
+- unsure which clustering method fits my data 
 
 ## Goals & tasks for next week
 - 
