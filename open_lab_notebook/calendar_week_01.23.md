@@ -21,4 +21,6 @@
 - question: can I use clustering without specifiying the number of clusters?
 
 ## Goals & tasks for next week
-- 
+- explain why I used correlation as connectivity measure
+- download connectivity matrices from brainlife
+- implement unsupervised learning algorithm
