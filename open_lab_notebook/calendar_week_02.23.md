@@ -14,6 +14,10 @@
 - read about different clustering methods here: https://scikit-learn.org/stable/modules/clustering.html (30 min)
 - adapted comment about LinearSCV (15 min)
 - weekly meeting (1 hour)
+- implemented an unsupervised learning algorithm using KMeans (30 min)
+- read about function [silhouette_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html) and searched the web for examples to understand what the function does (1 hour)
+- implemented a loop for several runs of KMeans and the computation of the silhouette score, plotted and described the results (1 hour)
+    (first had some trouble with the loop, and needed to adapt it several times)
 
 ## Problems
 - question: how do I know I if my data is linearly separable in order to decide if I can use a linear SVM?
