@@ -29,4 +29,4 @@
             -> use 'kmeans' and do several passes with different numbers of clusters, then use silhouette_score to check which number of clusters fits the data best
 
 ## Goals & tasks for next week
-- 
+- download connectivity matrices from brainlife
