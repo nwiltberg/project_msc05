@@ -23,10 +23,12 @@
         - maybe there is a maximum of three connections that should differ in particular, based on theory -> plot only these connections 
 - read about [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) (15 Min.)
 - tried to implemend GridSearchCV but run into warnings and errors (see below) (30 Min.)
+- adapted cluster evaluation using the steps described here: https://peerherholz.github.io/ns_ac_walkthrough/clustering.html#cluster-evaluation (1 hour)
 
 
 ## Problems
 - grid.fit resulted in a warning: "one or more of the test scores are non-finite"
+    -> for now this can be ignored because the following steps in the cluster evaluation still work
 
 ## Goals & tasks for next week
 - 
