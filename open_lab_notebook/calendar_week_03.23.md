@@ -31,4 +31,5 @@
     -> for now this can be ignored because the following steps in the cluster evaluation still work
 
 ## Goals & tasks for next week
-- 
+- explore results of the clustering
+- download connectivity matrices from brainlife
