@@ -20,4 +20,6 @@
 
 
 ## Goals & tasks for next week
-- 
+- edit READMEs
+- write the derivation of the research question
+- evaluate the results and write a discussion
