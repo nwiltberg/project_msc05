@@ -11,7 +11,7 @@ Based on an open data set ([ADHD-200](http://fcon_1000.projects.nitrc.org/indi/a
 
 In this [OSF project](https://osf.io/4ez8h/) the respective papers and websites can be found.
 
-## [Link to project presentation](https://docs.google.com/presentation/d/1UJh4XY4eKIXit-_BGjx1UasjU_EtFTyh/edit?usp=sharing&ouid=109631268300274874568&rtpof=true&sd=true)
+#### [Link to project presentation](https://docs.google.com/presentation/d/1UJh4XY4eKIXit-_BGjx1UasjU_EtFTyh/edit?usp=sharing&ouid=109631268300274874568&rtpof=true&sd=true)
 
 ## Structure
 
