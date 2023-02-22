@@ -9,4 +9,10 @@ Recent studies showed altered functional connectivity between certain brain netw
 
 Based on an open data set ([ADHD-200](http://fcon_1000.projects.nitrc.org/indi/adhd200/)) this project aims on answering this question using supervised and unsupervised machine learning.
 
-### [Link to project presentation](https://docs.google.com/presentation/d/1UJh4XY4eKIXit-_BGjx1UasjU_EtFTyh/edit?usp=sharing&ouid=109631268300274874568&rtpof=true&sd=true)
+In this [OSF project](https://osf.io/4ez8h/) the respective papers and websites can be found.
+
+## [Link to project presentation](https://docs.google.com/presentation/d/1UJh4XY4eKIXit-_BGjx1UasjU_EtFTyh/edit?usp=sharing&ouid=109631268300274874568&rtpof=true&sd=true)
+
+## Structure
+
+This repository contains information about the code and the data used in the project as well as an openlab notebook in which the course of the project can be traced.
