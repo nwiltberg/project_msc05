@@ -9,7 +9,7 @@
 
 ## Completed tasks
 - worked on the READMEs of github repository (30 min.)
-- worked on literature review / conception of the research question (2 hours)
+- worked on literature review / conception of the research question (3 hours)
 
 ## Problems
 
