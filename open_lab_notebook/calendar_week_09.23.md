@@ -11,6 +11,8 @@
 ## Completed tasks
 - weekly meeting (30 min.)
     talked about jupyter book
+- adapted jupyter notebook about data analysis (1 hour)
+- wrote an evaluation of the results and discussion (4 hours)
 
 ## Problems
 
