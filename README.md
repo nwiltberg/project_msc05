@@ -16,3 +16,4 @@ In this [OSF project](https://osf.io/4ez8h/) the respective papers and websites 
 ## Structure
 
 This repository contains information about the code and the data used in the project as well as an openlab notebook in which the course of the project can be traced.
+Besides the code for data analysis, a literature review and a discussion can befound in the folder "code".
