@@ -1,0 +1,8 @@
+root: index
+format: jb-book
+chapters:
+- file: code/Introduction
+- file: code/Literature_Review
+- file: code/Data_Exploration
+- file: code/Data_Analysis
+- file: code/Discussion
