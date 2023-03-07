@@ -334,6 +334,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Data Exploration</a></li>
 
 
+
 <li class="toctree-l1"><a class="reference internal" href="Data_Analysis.html">Data Analysis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Discussion.html">Evaluation and Discussion of the Results</a></li>
 </ul>
@@ -536,13 +537,18 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#load-data">
-   Load data
+  <a class="reference internal nav-link" href="#load-the-dataset">
+   Load the dataset
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#load-atlas">
-   Load atlas
+  <a class="reference internal nav-link" href="#exploration-of-the-dataset">
+   Exploration of the dataset
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exploration-of-the-atlas-used-for-parcellation">
+   Exploration of the atlas used for parcellation
   </a>
  </li>
 </ul>
@@ -560,8 +566,8 @@ title="Print to PDF"
 <p>First the dataset is loaded. The next step describes which files the data set contains and how these files are structured.</p>
 <p>Afterwards, the Yeo atlas is loaded which will be used for the brain parcellation.</p>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="load-data">
-<h1>Load data<a class="headerlink" href="#load-data" title="Permalink to this heading">#</a></h1>
+<section class="tex2jax_ignore mathjax_ignore" id="load-the-dataset">
+<h1>Load the dataset<a class="headerlink" href="#load-the-dataset" title="Permalink to this heading">#</a></h1>
 <p>In this project a preprocessed resting-state data set is used which is provided by <a class="reference external" href="https://nilearn.github.io/dev/modules/generated/nilearn.datasets.fetch_adhd.html">Nilearn</a>. It contains preprocessed data of the ADHD-200 sample, an initiative aiming at investigating the neural basis of ADHD (<a class="reference external" href="https://www.sciencedirect.com/science/article/abs/pii/S105381191630283X?via%3Dihub">Bellec et al., 2017</a>). More information about the preprocessed ADHD-200 sample can be found <a class="reference external" href="http://preprocessed-connectomes-project.org/adhd200/">here</a>.</p>
 <p>First, the open data set is loaded:</p>
 <div class="cell docutils container">
@@ -598,6 +604,9 @@ title="Print to PDF"
 </div>
 </div>
 </div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="exploration-of-the-dataset">
+<h1>Exploration of the dataset<a class="headerlink" href="#exploration-of-the-dataset" title="Permalink to this heading">#</a></h1>
 <p>The dataset available on Nilearn provides datafiles of 40 subjects of the ADHD-200 sample.</p>
 <p>Besides the functional resting-state images, it contains a regressor file for each participant, with information about important signal confounds like motion parameters, compcor components etc. Let’s have a closer look at this regressor file for one of the participants.</p>
 <div class="cell docutils container">
@@ -2048,8 +2057,8 @@ Name: adhd, dtype: int64
 </div>
 </div>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="load-atlas">
-<h1>Load atlas<a class="headerlink" href="#load-atlas" title="Permalink to this heading">#</a></h1>
+<section class="tex2jax_ignore mathjax_ignore" id="exploration-of-the-atlas-used-for-parcellation">
+<h1>Exploration of the atlas used for parcellation<a class="headerlink" href="#exploration-of-the-atlas-used-for-parcellation" title="Permalink to this heading">#</a></h1>
 <p>The <a class="reference external" href="https://journals.physiology.org/doi/full/10.1152/jn.00338.2011">Yeo atlas (2011)</a> contains a parcellation of the cerebral cortex into 7 networks like the frontoparietal network, the default mold network, the ventral attention network and the somatomotor network. Since these are regions of interest for this project, the atlas appears to be well suited.</p>
 <p>First, the atlas must be loaded. This will be done using <a class="reference external" href="https://nilearn.github.io/dev/modules/generated/nilearn.datasets.fetch_atlas_yeo_2011.html">nilearn.datasets.fetch_atlas_yeo_2011</a>.</p>
 <div class="cell docutils container">
@@ -2234,13 +2243,18 @@ Name: adhd, dtype: int64
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#load-data">
-   Load data
+  <a class="reference internal nav-link" href="#load-the-dataset">
+   Load the dataset
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#load-atlas">
-   Load atlas
+  <a class="reference internal nav-link" href="#exploration-of-the-dataset">
+   Exploration of the dataset
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exploration-of-the-atlas-used-for-parcellation">
+   Exploration of the atlas used for parcellation
   </a>
  </li>
 </ul>
