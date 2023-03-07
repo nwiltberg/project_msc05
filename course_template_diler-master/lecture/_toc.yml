@@ -1,7 +1,0 @@
-root: general_information/index
-format: jb-book
-chapters:
-- file: content/Literature_Review
-- file: content/Data_Exploration
-- file: content/Data_Analysis
-- file: content/Discussion
