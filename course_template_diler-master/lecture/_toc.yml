@@ -1,8 +1,7 @@
-root: index
+root: general_information/index
 format: jb-book
 chapters:
-- file: code/Introduction
-- file: code/Literature_Review
-- file: code/Data_Exploration
-- file: code/Data_Analysis
-- file: code/Discussion
+- file: content/Literature_Review
+- file: content/Data_Exploration
+- file: content/Data_Analysis
+- file: content/Discussion
