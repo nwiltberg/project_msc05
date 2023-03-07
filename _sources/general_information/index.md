@@ -20,19 +20,19 @@ Hello everyone and welcome to the page of a research project created as part of 
 
 The page contains the following chapters:
 
-* [Literature Review](https://m-earnest.github.io/course_template_diler/general_information/overview.html)
+* [Literature Review](https://nwiltberg.github.io/project_msc05/code/Literature_Review.html)
 
    The derivation of the research question and an overview of current studies
 
-* [Data Exploration](https://m-earnest.github.io/course_template_diler/general_information/outline.html)
+* [Data Exploration](https://nwiltberg.github.io/project_msc05/code/Data_Exploration.html#)
 
    Exploration of the dataset used in this project
 
-* [Data Analysis](https://m-earnest.github.io/course_template_diler/introduction/intro.html)
+* [Data Analysis](https://nwiltberg.github.io/project_msc05/code/Data_Analysis.html)
 
    Computation of the functional connectomes and setup of a supervised and an unsupervised learning algorithm
 
-* [Discussion](https://m-earnest.github.io/course_template_diler/content/intro_content.html)
+* [Discussion](https://nwiltberg.github.io/project_msc05/code/Discussion.html)
 
    Evaluation and Discussion of the results of the Data Analysis
 
