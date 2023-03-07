@@ -1,0 +1,2304 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Introduction &#8212; Research Internship - Functional Connectivity in Patients with ADHD</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+<link href="../_static/styles/bootstrap.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=4ec06e9971c5264fbd345897d5258098f11cc577" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=796348d33e8b1d947c94">
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=796348d33e8b1d947c94">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=8bf782fb4ee92b3d3646425e50f299c4e1fd152d"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'code/Data_Exploration';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Data Analysis" href="Data_Analysis.html" />
+    <link rel="prev" title="Introduction and Conception of the Research Question" href="Literature_Review.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="docsearch:language" content="en">
+  </head>
+  
+  
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="180" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  
+  <input type="checkbox" class="sidebar-toggle" name="__primary" id="__primary">
+  <label class="overlay overlay-primary" for="__primary"></label>
+
+  
+  <input type="checkbox" class="sidebar-toggle" name="__secondary" id="__secondary">
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+      
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+    </div>
+  </div>
+
+  
+  <nav class="bd-header navbar navbar-expand-lg bd-navbar" id="navbar-main"><div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+      <span class="fa-solid fa-bars"></span>
+  </label>
+  <div id="navbar-start">
+    
+    
+  
+
+
+<a class="navbar-brand logo" href="../general_information/index.html">
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image">
+    <img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image">
+  
+  
+</a>
+    
+  </div>
+
+  
+  <div class="col-lg-9 navbar-header-items">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Literature_Review.html">
+                        Introduction and Conception of the Research Question
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="#">
+                        Introduction
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Data_Analysis.html">
+                        Data Analysis
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Discussion.html">
+                        Evaluation and Discussion of the Results
+                      </a>
+                    </li>
+                
+    </ul>
+</nav>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+        <div class="navbar-end-item navbar-persistent--container">
+          
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
+</button>
+        </div>
+      
+      
+      <div class="navbar-end-item">
+        <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+</button>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+  
+  
+    <div class="navbar-persistent--mobile">
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
+</button>
+    </div>
+  
+
+  
+  <label class="sidebar-toggle secondary-toggle" for="__secondary">
+      <span class="fa-solid fa-outdent"></span>
+  </label>
+  
+
+</div>
+  </nav>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Literature_Review.html">
+                        Introduction and Conception of the Research Question
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="#">
+                        Introduction
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Data_Analysis.html">
+                        Data Analysis
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Discussion.html">
+                        Evaluation and Discussion of the Results
+                      </a>
+                    </li>
+                
+    </ul>
+</nav>
+      </div>
+      
+      </div>
+    
+
+    
+    
+    <div class="sidebar-header-items__end">
+      
+      <div class="navbar-end-item">
+        <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+</button>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  
+  <div class="sidebar-start-items sidebar-primary__section">
+    <div class="sidebar-start-items__item">
+  
+
+
+<a class="navbar-brand logo" href="../general_information/index.html">
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image">
+    <img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image">
+  
+  
+</a>
+    </div>
+    <div class="sidebar-start-items__item">
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+    </div>
+    <div class="sidebar-start-items__item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../general_information/index.html">
+                    Welcome!
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Literature_Review.html">Introduction and Conception of the Research Question</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Introduction</a></li>
+
+
+<li class="toctree-l1"><a class="reference internal" href="Data_Analysis.html">Data Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Discussion.html">Evaluation and Discussion of the Results</a></li>
+</ul>
+
+    </div>
+</nav>
+    </div>
+  </div>
+  
+
+  
+  <div class="sidebar-end-items sidebar-primary__section">
+    <div class="sidebar-end-items__item">
+    </div>
+  </div>
+
+  
+  <div id="rtd-footer-container"></div>
+
+      </div>
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+        <div class="bd-content">
+          <div class="bd-article-container">
+            
+            <div class="bd-header-article">
+                
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        <label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" data-toggle="tooltip" data-placement="right" title="Toggle primary sidebar">
+            <span class="fa-solid fa-bars"></span>
+        </label>
+    </div>
+    <div class="header-article__right">
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      <li><a href="https://mybinder.org/v2/gh/nwiltberg/project_msc05/main?urlpath=tree/content/code/Data_Exploration.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img src="../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</a>
+      
+  </ul>
+</div>
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<div class="dropdown dropdown-repository-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      <li><a href="https://github.com/nwiltberg/project_msc05" target="_blank"
+   class="btn btn-sm dropdown-item"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">repository</span>
+</a>
+</a>
+      
+      <li><a href="https://github.com/nwiltberg/project_msc05/issues/new?title=Issue%20on%20page%20%2Fcode/Data_Exploration.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm dropdown-item"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">open issue</span>
+</a>
+</a>
+      
+      <li><a href="https://github.com/nwiltberg/project_msc05/edit/main/content/code/Data_Exploration.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">suggest edit</span>
+</a>
+</a>
+      
+  </ul>
+</div>
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      <li><a href="../_sources/code/Data_Exploration.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</a>
+      
+      <li>
+<button onclick="printPdf(this)"
+  class="btn btn-sm dropdown-item"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</a>
+      
+  </ul>
+</div>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary" data-toggle="tooltip" data-placement="left" title="Toggle secondary sidebar">
+            <span class="fa-solid fa-list"></span>
+        </label>
+    </div>
+</div>
+            </div>
+            
+            
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Introduction</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-data">
+   Load data
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-atlas">
+   Load atlas
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+            <article class="bd-article" role="main">
+              
+  <section class="tex2jax_ignore mathjax_ignore" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h1>
+<p>This notebook contains the first steps of data processing regarding the exploration of the data.</p>
+<p>First the dataset is loaded. The next step describes which files the data set contains and how these files are structured.</p>
+<p>Afterwards, the Yeo atlas is loaded which will be used for the brain parcellation.</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="load-data">
+<h1>Load data<a class="headerlink" href="#load-data" title="Permalink to this heading">#</a></h1>
+<p>In this project a preprocessed resting-state data set is used which is provided by <a class="reference external" href="https://nilearn.github.io/dev/modules/generated/nilearn.datasets.fetch_adhd.html">Nilearn</a>. It contains preprocessed data of the ADHD-200 sample, an initiative aiming at investigating the neural basis of ADHD (<a class="reference external" href="https://www.sciencedirect.com/science/article/abs/pii/S105381191630283X?via%3Dihub">Bellec et al., 2017</a>). More information about the preprocessed ADHD-200 sample can be found <a class="reference external" href="http://preprocessed-connectomes-project.org/adhd200/">here</a>.</p>
+<p>First, the open data set is loaded:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">nilearn</span>
+<span class="kn">from</span> <span class="nn">nilearn</span> <span class="kn">import</span> <span class="n">datasets</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">nilearn</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">fetch_adhd</span><span class="p">(</span><span class="n">n_subjects</span><span class="o">=</span><span class="mi">40</span><span class="p">,</span> <span class="n">data_dir</span><span class="o">=</span><span class="s1">&#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data&#39;</span><span class="p">,</span> <span class="n">url</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">resume</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/nwiltberg/miniconda3/envs/neuro_ai/lib/python3.7/site-packages/nilearn/datasets/func.py:251: VisibleDeprecationWarning: Reading unicode strings without specifying the encoding argument is deprecated. Set the encoding, use None for the system default.
+  dtype=None)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">c</span><span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">nasta</span><span class="o">/</span><span class="n">Desktop</span><span class="o">/</span><span class="n">Forschungsmodul</span><span class="o">/</span><span class="n">project_msc05</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05
+</pre></div>
+</div>
+</div>
+</div>
+<p>The dataset available on Nilearn provides datafiles of 40 subjects of the ADHD-200 sample.</p>
+<p>Besides the functional resting-state images, it contains a regressor file for each participant, with information about important signal confounds like motion parameters, compcor components etc. Let’s have a closer look at this regressor file for one of the participants.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="s1">&#39;data/adhd/data/0010042/0010042_regressors.csv&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>csf</th>
+      <th>constant</th>
+      <th>linearTrend</th>
+      <th>wm</th>
+      <th>global</th>
+      <th>motion-pitch</th>
+      <th>motion-roll</th>
+      <th>motion-yaw</th>
+      <th>motion-x</th>
+      <th>motion-y</th>
+      <th>motion-z</th>
+      <th>gm</th>
+      <th>compcor1</th>
+      <th>compcor2</th>
+      <th>compcor3</th>
+      <th>compcor4</th>
+      <th>compcor5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>12140.708282</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>9322.722489</td>
+      <td>9955.469315</td>
+      <td>-0.0637</td>
+      <td>0.1032</td>
+      <td>-0.1516</td>
+      <td>-0.0376</td>
+      <td>-0.0112</td>
+      <td>0.0840</td>
+      <td>10617.938409</td>
+      <td>-0.035058</td>
+      <td>-0.006713</td>
+      <td>-0.071532</td>
+      <td>0.009847</td>
+      <td>-0.027601</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>12123.146913</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>9314.257684</td>
+      <td>9947.987176</td>
+      <td>-0.0708</td>
+      <td>0.0953</td>
+      <td>-0.1562</td>
+      <td>-0.0198</td>
+      <td>0.0021</td>
+      <td>0.0722</td>
+      <td>10611.036827</td>
+      <td>-0.026949</td>
+      <td>-0.091152</td>
+      <td>-0.030126</td>
+      <td>0.020055</td>
+      <td>-0.099798</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>12085.963127</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>9319.610045</td>
+      <td>9945.132852</td>
+      <td>-0.0795</td>
+      <td>0.0971</td>
+      <td>-0.1453</td>
+      <td>-0.0439</td>
+      <td>-0.0241</td>
+      <td>0.0972</td>
+      <td>10591.877177</td>
+      <td>0.002552</td>
+      <td>0.069165</td>
+      <td>0.090166</td>
+      <td>-0.016608</td>
+      <td>-0.071980</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>12109.299348</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>9299.841075</td>
+      <td>9943.648622</td>
+      <td>-0.0607</td>
+      <td>0.0918</td>
+      <td>-0.1601</td>
+      <td>-0.0418</td>
+      <td>-0.0133</td>
+      <td>0.0877</td>
+      <td>10592.008336</td>
+      <td>0.079391</td>
+      <td>0.029959</td>
+      <td>-0.098036</td>
+      <td>0.062493</td>
+      <td>0.024105</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>12072.330305</td>
+      <td>1.0</td>
+      <td>4.0</td>
+      <td>9297.870869</td>
+      <td>9925.640852</td>
+      <td>-0.0706</td>
+      <td>0.0873</td>
+      <td>-0.1482</td>
+      <td>-0.0313</td>
+      <td>-0.0118</td>
+      <td>0.0712</td>
+      <td>10570.445905</td>
+      <td>0.075471</td>
+      <td>-0.030123</td>
+      <td>0.084739</td>
+      <td>0.088217</td>
+      <td>0.012996</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>The Dataset also contains a file with phenotypic information like age, sex and diagnostic information. Let’s take a closer look at this file as well.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">glob</span>
+<span class="n">data_file_pheno</span> <span class="o">=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s1">&#39;data/adhd/ADHD200_40subs_motion*.csv&#39;</span><span class="p">)</span>
+<span class="n">data_file_pheno</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;data/adhd/ADHD200_40subs_motion_parameters_and_phenotypics.csv&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data_pheno</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">data_file_pheno</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">data_pheno</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>Subject</th>
+      <th>Rest.Scan</th>
+      <th>MeanFD</th>
+      <th>NumFD_greater_than_0.20</th>
+      <th>rootMeanSquareFD</th>
+      <th>FDquartile.top1.4thFD.</th>
+      <th>PercentFD_greater_than_0.20</th>
+      <th>MeanDVARS</th>
+      <th>MeanFD_Jenkinson</th>
+      <th>...</th>
+      <th>sess_1_rest_6_eyes</th>
+      <th>sess_1_anat_1</th>
+      <th>sess_1_which_anat</th>
+      <th>sess_2_rest_1</th>
+      <th>sess_2_rest_1_eyes</th>
+      <th>sess_2_rest_2</th>
+      <th>sess_2_rest_2_eyes</th>
+      <th>sess_2_anat_1</th>
+      <th>defacing_ok</th>
+      <th>defacing_notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>2014113</td>
+      <td>rest_1</td>
+      <td>0.0576</td>
+      <td>2</td>
+      <td>0.2400</td>
+      <td>0.0944</td>
+      <td>1.6000</td>
+      <td>16.1677</td>
+      <td>1.3868</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>pass</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>yes</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>3902469</td>
+      <td>rest_1</td>
+      <td>0.0580</td>
+      <td>0</td>
+      <td>0.2409</td>
+      <td>0.0931</td>
+      <td>0.0000</td>
+      <td>17.4188</td>
+      <td>1.2040</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>pass</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>4275075</td>
+      <td>rest_1</td>
+      <td>0.0789</td>
+      <td>0</td>
+      <td>0.2808</td>
+      <td>0.1520</td>
+      <td>0.0000</td>
+      <td>17.7796</td>
+      <td>1.8105</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>pass</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>7774305</td>
+      <td>rest_1</td>
+      <td>0.0679</td>
+      <td>0</td>
+      <td>0.2606</td>
+      <td>0.1054</td>
+      <td>0.0000</td>
+      <td>16.7169</td>
+      <td>1.5137</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>pass</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>yes</td>
+      <td>defaced part of front skull/brain</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>1019436</td>
+      <td>rest_1</td>
+      <td>0.0904</td>
+      <td>0</td>
+      <td>0.3006</td>
+      <td>0.1927</td>
+      <td>0.0000</td>
+      <td>19.6124</td>
+      <td>1.6769</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>pass</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>yes</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>3699991</td>
+      <td>rest_1</td>
+      <td>0.1113</td>
+      <td>15</td>
+      <td>0.3337</td>
+      <td>0.2524</td>
+      <td>9.8039</td>
+      <td>19.8704</td>
+      <td>2.6121</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>pass</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>3154996</td>
+      <td>rest_1</td>
+      <td>0.0881</td>
+      <td>0</td>
+      <td>0.2968</td>
+      <td>0.1619</td>
+      <td>0.0000</td>
+      <td>18.6120</td>
+      <td>1.8118</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>3884955</td>
+      <td>rest_1</td>
+      <td>0.0988</td>
+      <td>8</td>
+      <td>0.3144</td>
+      <td>0.1881</td>
+      <td>6.4000</td>
+      <td>17.3609</td>
+      <td>1.9543</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>pass</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>27034</td>
+      <td>rest_1</td>
+      <td>0.0484</td>
+      <td>1</td>
+      <td>0.2201</td>
+      <td>0.0860</td>
+      <td>0.3831</td>
+      <td>21.5895</td>
+      <td>0.9262</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>pass</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>4134561</td>
+      <td>rest_1</td>
+      <td>0.0439</td>
+      <td>4</td>
+      <td>0.2095</td>
+      <td>0.0849</td>
+      <td>1.5267</td>
+      <td>25.0028</td>
+      <td>0.9207</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>pass</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>yes</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>10 rows × 65 columns</p>
+</div></div></div>
+</div>
+<p>Due to their quantity the table does not show all columns. But with the following code it is possible to get an overview about all collumns.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data_pheno</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Index([&#39;Unnamed: 0&#39;, &#39;Subject&#39;, &#39;Rest.Scan&#39;, &#39;MeanFD&#39;,
+       &#39;NumFD_greater_than_0.20&#39;, &#39;rootMeanSquareFD&#39;, &#39;FDquartile.top1.4thFD.&#39;,
+       &#39;PercentFD_greater_than_0.20&#39;, &#39;MeanDVARS&#39;, &#39;MeanFD_Jenkinson&#39;, &#39;site&#39;,
+       &#39;sibling_id&#39;, &#39;data_set&#39;, &#39;age&#39;, &#39;sex&#39;, &#39;handedness&#39;, &#39;full_2_iq&#39;,
+       &#39;full_4_iq&#39;, &#39;viq&#39;, &#39;piq&#39;, &#39;iq_measure&#39;, &#39;tdc&#39;, &#39;adhd&#39;,
+       &#39;adhd_inattentive&#39;, &#39;adhd_combined&#39;, &#39;adhd_subthreshold&#39;,
+       &#39;diagnosis_using_cdis&#39;, &#39;notes&#39;, &#39;sess_1_anat_2&#39;, &#39;oppositional&#39;,
+       &#39;cog_inatt&#39;, &#39;hyperac&#39;, &#39;anxious_shy&#39;, &#39;perfectionism&#39;,
+       &#39;social_problems&#39;, &#39;psychosomatic&#39;, &#39;conn_adhd&#39;, &#39;restless_impulsive&#39;,
+       &#39;emot_lability&#39;, &#39;conn_gi_tot&#39;, &#39;dsm_iv_inatt&#39;, &#39;dsm_iv_h_i&#39;,
+       &#39;dsm_iv_tot&#39;, &#39;study&#39;, &#39;sess_1_rest_1&#39;, &#39;sess_1_rest_1_eyes&#39;,
+       &#39;sess_1_rest_2&#39;, &#39;sess_1_rest_2_eyes&#39;, &#39;sess_1_rest_3&#39;,
+       &#39;sess_1_rest_3_eyes&#39;, &#39;sess_1_rest_4&#39;, &#39;sess_1_rest_4_eyes&#39;,
+       &#39;sess_1_rest_5&#39;, &#39;sess_1_rest_5_eyes&#39;, &#39;sess_1_rest_6&#39;,
+       &#39;sess_1_rest_6_eyes&#39;, &#39;sess_1_anat_1&#39;, &#39;sess_1_which_anat&#39;,
+       &#39;sess_2_rest_1&#39;, &#39;sess_2_rest_1_eyes&#39;, &#39;sess_2_rest_2&#39;,
+       &#39;sess_2_rest_2_eyes&#39;, &#39;sess_2_anat_1&#39;, &#39;defacing_ok&#39;, &#39;defacing_notes&#39;],
+      dtype=&#39;object&#39;)
+</pre></div>
+</div>
+</div>
+</div>
+<p>It’s important to make sure that the phenotypic file contains the diagnosis of each participant. Since the subtypes of ADHD (inattentive, hyperactive/impulsive, combined) must also be taken into account in this project, this information should also be available. Let’s check the information stored in the column ‘adhd’.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># check column &#39;adhd&#39;</span>
+<span class="n">data_pheno</span><span class="p">[</span><span class="s1">&#39;adhd&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0     1
+1     0
+2     1
+3     0
+4     1
+5     0
+6     1
+7     0
+8     1
+9     0
+10    1
+11    0
+12    1
+13    0
+14    1
+15    0
+16    1
+17    0
+18    1
+19    0
+20    1
+21    0
+22    1
+23    0
+24    1
+25    0
+26    1
+27    0
+28    1
+29    0
+30    1
+31    0
+32    1
+33    0
+34    1
+35    0
+36    1
+37    0
+38    1
+39    0
+Name: adhd, dtype: int64
+</pre></div>
+</div>
+</div>
+</div>
+<p>The column only contains the digits 1 and 0. It shows whether a participant has ADHD or not.</p>
+<p>As we can see in the list of columns, the phenotypic file does not contain a clustering of the participants regarding the subtypes of ADHD. But the phenotypic file of the whole ADHD-200 sample seems to hold this information in a column names ‘diagnosis’, as we can check <a class="reference external" href="http://fcon_1000.projects.nitrc.org/indi/adhd200/general/ADHD-200_PhenotypicKey.pdf">here</a>.</p>
+<p>So let’s load the phenotypic file of the whole dataset. We can determine the diagnosis later using the subject id.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">urllib.request</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://www.nitrc.org/frs/download.php/9024/adhd200_preprocessed_phenotypics.tsv&quot;</span> 
+<span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="s1">&#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/adhd200_preprocessed_phenotypics.tsv&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(&#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/adhd200_preprocessed_phenotypics.tsv&#39;,
+ &lt;http.client.HTTPMessage at 0x7f2d68c43c18&gt;)
+</pre></div>
+</div>
+</div>
+</div>
+<p>Let’s look into this file.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pheno_all</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/adhd200_preprocessed_phenotypics.tsv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">pheno_all</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ScanDir ID</th>
+      <th>Site</th>
+      <th>Gender</th>
+      <th>Age</th>
+      <th>Handedness</th>
+      <th>DX</th>
+      <th>Secondary Dx</th>
+      <th>ADHD Measure</th>
+      <th>ADHD Index</th>
+      <th>Inattentive</th>
+      <th>Hyper/Impulsive</th>
+      <th>IQ Measure</th>
+      <th>Verbal IQ</th>
+      <th>Performance IQ</th>
+      <th>Full2 IQ</th>
+      <th>Full4 IQ</th>
+      <th>Med Status</th>
+      <th>QC_Athena</th>
+      <th>QC_NIAK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2371032</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>10.73</td>
+      <td>1</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>47</td>
+      <td>55</td>
+      <td>43</td>
+      <td>1.0</td>
+      <td>121.0</td>
+      <td>119.0</td>
+      <td>NaN</td>
+      <td>122.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2026113</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>12.99</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>90</td>
+      <td>89</td>
+      <td>78</td>
+      <td>1.0</td>
+      <td>122.0</td>
+      <td>108.0</td>
+      <td>NaN</td>
+      <td>106.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3434578</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>8.12</td>
+      <td>1</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>42</td>
+      <td>42</td>
+      <td>43</td>
+      <td>1.0</td>
+      <td>85.0</td>
+      <td>98.0</td>
+      <td>NaN</td>
+      <td>89.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8628223</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>10.81</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Simple phobia</td>
+      <td>2</td>
+      <td>42</td>
+      <td>49</td>
+      <td>49</td>
+      <td>1.0</td>
+      <td>85.0</td>
+      <td>86.0</td>
+      <td>NaN</td>
+      <td>97.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1623716</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>12.65</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>87</td>
+      <td>90</td>
+      <td>90</td>
+      <td>1.0</td>
+      <td>89.0</td>
+      <td>88.0</td>
+      <td>NaN</td>
+      <td>89.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>968</th>
+      <td>25008</td>
+      <td>7</td>
+      <td>1.0</td>
+      <td>15.90</td>
+      <td>1</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>127.0</td>
+      <td>105.0</td>
+      <td>NaN</td>
+      <td>117.0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>969</th>
+      <td>25009</td>
+      <td>7</td>
+      <td>1.0</td>
+      <td>13.87</td>
+      <td>1</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>135.0</td>
+      <td>119.0</td>
+      <td>NaN</td>
+      <td>130.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>970</th>
+      <td>25012</td>
+      <td>7</td>
+      <td>0.0</td>
+      <td>15.04</td>
+      <td>1</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>95.0</td>
+      <td>88.0</td>
+      <td>NaN</td>
+      <td>90.0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>971</th>
+      <td>25013</td>
+      <td>7</td>
+      <td>1.0</td>
+      <td>13.64</td>
+      <td>1</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>114.0</td>
+      <td>109.0</td>
+      <td>NaN</td>
+      <td>113.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>972</th>
+      <td>25014</td>
+      <td>7</td>
+      <td>1.0</td>
+      <td>13.72</td>
+      <td>1</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>103.0</td>
+      <td>103.0</td>
+      <td>NaN</td>
+      <td>104.0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>973 rows × 19 columns</p>
+</div></div></div>
+</div>
+<p>The column ‘DX’ stores the relevant information as described in the phenotypic key of the dataset.</p>
+<p>Let’s check out whether the ID stored in this file matches the subject ID of the loaded dataset. We can do this via searching for the first subject id of our dataset in the corresponding column of the phenotypic file:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pheno_all</span><span class="p">[</span><span class="n">pheno_all</span><span class="p">[</span><span class="s1">&#39;ScanDir ID&#39;</span><span class="p">]</span><span class="o">==</span><span class="mi">2014113</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ScanDir ID</th>
+      <th>Site</th>
+      <th>Gender</th>
+      <th>Age</th>
+      <th>Handedness</th>
+      <th>DX</th>
+      <th>Secondary Dx</th>
+      <th>ADHD Measure</th>
+      <th>ADHD Index</th>
+      <th>Inattentive</th>
+      <th>Hyper/Impulsive</th>
+      <th>IQ Measure</th>
+      <th>Verbal IQ</th>
+      <th>Performance IQ</th>
+      <th>Full2 IQ</th>
+      <th>Full4 IQ</th>
+      <th>Med Status</th>
+      <th>QC_Athena</th>
+      <th>QC_NIAK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>26</th>
+      <td>2014113</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>10.35</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>60</td>
+      <td>65</td>
+      <td>66</td>
+      <td>1.0</td>
+      <td>108.0</td>
+      <td>106.0</td>
+      <td>NaN</td>
+      <td>102.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>Great, this shows that the column ‘ScanDir ID’ stores the same ID as in the subdataset we want to use. This is important, because now we can filter out the phenotypic information for eacht participant our dataset contains.</p>
+<p>In the course of the data analysis, the data of the individual subjects is accessed using the subject ids. So it is necessary to create a list of all subject ids.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">loadtxt</span>
+
+<span class="n">sub_idx</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">loadtxt</span><span class="p">(</span><span class="s2">&quot;data/adhd/ADHD200_40subs_ID.txt&quot;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sub_idx</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[2014113.0, 3902469.0, 4275075.0, 7774305.0, 1019436.0, 3699991.0, 3154996.0, 3884955.0, 27034.0, 4134561.0, 27018.0, 6115230.0, 27037.0, 8409791.0, 27011.0, 3007585.0, 8697774.0, 9750701.0, 10064.0, 21019.0, 10042.0, 10128.0, 2497695.0, 4164316.0, 1552181.0, 4046678.0, 23012.0, 1679142.0, 1206380.0, 23008.0, 4016887.0, 1418396.0, 2950754.0, 3994098.0, 3520880.0, 1517058.0, 9744150.0, 1562298.0, 3205761.0, 3624598.0]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sub_idx</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">sub_idx</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sub_idx</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[2014113, 3902469, 4275075, 7774305, 1019436, 3699991, 3154996, 3884955, 27034, 4134561, 27018, 6115230, 27037, 8409791, 27011, 3007585, 8697774, 9750701, 10064, 21019, 10042, 10128, 2497695, 4164316, 1552181, 4046678, 23012, 1679142, 1206380, 23008, 4016887, 1418396, 2950754, 3994098, 3520880, 1517058, 9744150, 1562298, 3205761, 3624598]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sub_idx</span> <span class="o">=</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">sub_idx</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sub_idx</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;2014113&#39;, &#39;3902469&#39;, &#39;4275075&#39;, &#39;7774305&#39;, &#39;1019436&#39;, &#39;3699991&#39;, &#39;3154996&#39;, &#39;3884955&#39;, &#39;27034&#39;, &#39;4134561&#39;, &#39;27018&#39;, &#39;6115230&#39;, &#39;27037&#39;, &#39;8409791&#39;, &#39;27011&#39;, &#39;3007585&#39;, &#39;8697774&#39;, &#39;9750701&#39;, &#39;10064&#39;, &#39;21019&#39;, &#39;10042&#39;, &#39;10128&#39;, &#39;2497695&#39;, &#39;4164316&#39;, &#39;1552181&#39;, &#39;4046678&#39;, &#39;23012&#39;, &#39;1679142&#39;, &#39;1206380&#39;, &#39;23008&#39;, &#39;4016887&#39;, &#39;1418396&#39;, &#39;2950754&#39;, &#39;3994098&#39;, &#39;3520880&#39;, &#39;1517058&#39;, &#39;9744150&#39;, &#39;1562298&#39;, &#39;3205761&#39;, &#39;3624598&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now the list of the subject ids kann be used to filter out the phenotypic information for the corresponding participants. Let’s store this in a new variable called ‘pheno_filt’.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pheno_filt</span> <span class="o">=</span> <span class="n">pheno_all</span><span class="p">[</span><span class="n">pheno_all</span><span class="p">[</span><span class="s1">&#39;ScanDir ID&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">sub_idx</span><span class="p">)]</span>
+<span class="n">pheno_filt</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ScanDir ID</th>
+      <th>Site</th>
+      <th>Gender</th>
+      <th>Age</th>
+      <th>Handedness</th>
+      <th>DX</th>
+      <th>Secondary Dx</th>
+      <th>ADHD Measure</th>
+      <th>ADHD Index</th>
+      <th>Inattentive</th>
+      <th>Hyper/Impulsive</th>
+      <th>IQ Measure</th>
+      <th>Verbal IQ</th>
+      <th>Performance IQ</th>
+      <th>Full2 IQ</th>
+      <th>Full4 IQ</th>
+      <th>Med Status</th>
+      <th>QC_Athena</th>
+      <th>QC_NIAK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>7</th>
+      <td>3154996</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>11.65</td>
+      <td>1</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>64</td>
+      <td>74</td>
+      <td>58</td>
+      <td>1.0</td>
+      <td>93.0</td>
+      <td>98.0</td>
+      <td>NaN</td>
+      <td>88.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>4275075</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>10.50</td>
+      <td>1</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>87</td>
+      <td>75</td>
+      <td>69</td>
+      <td>1.0</td>
+      <td>93.0</td>
+      <td>100.0</td>
+      <td>NaN</td>
+      <td>94.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>3699991</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>12.77</td>
+      <td>1</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>42</td>
+      <td>41</td>
+      <td>43</td>
+      <td>1.0</td>
+      <td>104.0</td>
+      <td>102.0</td>
+      <td>NaN</td>
+      <td>98.0</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>2014113</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>10.35</td>
+      <td>1</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>60</td>
+      <td>65</td>
+      <td>66</td>
+      <td>1.0</td>
+      <td>108.0</td>
+      <td>106.0</td>
+      <td>NaN</td>
+      <td>102.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>3884955</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>11.84</td>
+      <td>1</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>40</td>
+      <td>41</td>
+      <td>46</td>
+      <td>1.0</td>
+      <td>119.0</td>
+      <td>123.0</td>
+      <td>NaN</td>
+      <td>134.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>1019436</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>12.98</td>
+      <td>1</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>71</td>
+      <td>60</td>
+      <td>66</td>
+      <td>1.0</td>
+      <td>99.0</td>
+      <td>115.0</td>
+      <td>NaN</td>
+      <td>103.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>3902469</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>10.64</td>
+      <td>1</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>50</td>
+      <td>53</td>
+      <td>50</td>
+      <td>1.0</td>
+      <td>132.0</td>
+      <td>112.0</td>
+      <td>NaN</td>
+      <td>124.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>7774305</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>11.22</td>
+      <td>1</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>42</td>
+      <td>42</td>
+      <td>43</td>
+      <td>1.0</td>
+      <td>104.0</td>
+      <td>92.0</td>
+      <td>NaN</td>
+      <td>108.0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>3007585</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>19.05</td>
+      <td>1</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>118</th>
+      <td>4134561</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>15.55</td>
+      <td>1</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>The phenotypic information is needed lateron when an algorithm is trained to differentiate between the subtypes of ADHD based on the functional connectivity. To do this the phenotypic information must be stored in the same order as the frmi files and confound files the dataset contains for each participant. These files are stored in an ascending order based on the subject id. So lets sort the dataframe the same way and store it in a new variable named ‘pheno_final’.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pheno_final</span> <span class="o">=</span> <span class="n">pheno_filt</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;ScanDir ID&#39;</span><span class="p">])</span>
+<span class="n">pheno_final</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ScanDir ID</th>
+      <th>Site</th>
+      <th>Gender</th>
+      <th>Age</th>
+      <th>Handedness</th>
+      <th>DX</th>
+      <th>Secondary Dx</th>
+      <th>ADHD Measure</th>
+      <th>ADHD Index</th>
+      <th>Inattentive</th>
+      <th>Hyper/Impulsive</th>
+      <th>IQ Measure</th>
+      <th>Verbal IQ</th>
+      <th>Performance IQ</th>
+      <th>Full2 IQ</th>
+      <th>Full4 IQ</th>
+      <th>Med Status</th>
+      <th>QC_Athena</th>
+      <th>QC_NIAK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>246</th>
+      <td>10042</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>10.65</td>
+      <td>0.91</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>65</td>
+      <td>59</td>
+      <td>56</td>
+      <td>2.0</td>
+      <td>100.0</td>
+      <td>115.0</td>
+      <td>NaN</td>
+      <td>108.0</td>
+      <td>-999</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>264</th>
+      <td>10064</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>15.90</td>
+      <td>0.76</td>
+      <td>1</td>
+      <td>social anxiety disorder; specific phobia</td>
+      <td>2</td>
+      <td>81</td>
+      <td>81</td>
+      <td>90</td>
+      <td>2.0</td>
+      <td>95.0</td>
+      <td>107.0</td>
+      <td>NaN</td>
+      <td>101.0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>349</th>
+      <td>10128</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>9.53</td>
+      <td>0.82</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>2</td>
+      <td>56</td>
+      <td>58</td>
+      <td>60</td>
+      <td>2.0</td>
+      <td>112.0</td>
+      <td>136.0</td>
+      <td>NaN</td>
+      <td>127.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>903</th>
+      <td>21019</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>15.53</td>
+      <td>0.73</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>40</td>
+      <td>45</td>
+      <td>43</td>
+      <td>2.0</td>
+      <td>112.0</td>
+      <td>99.0</td>
+      <td>NaN</td>
+      <td>107.0</td>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>938</th>
+      <td>23008</td>
+      <td>6</td>
+      <td>1.0</td>
+      <td>9.17</td>
+      <td>1</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>112.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>The dataframe is now stored in a new file, so that it can be easily accessed later.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">mnt</span><span class="o">/</span><span class="n">c</span><span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">nasta</span><span class="o">/</span><span class="n">Desktop</span><span class="o">/</span><span class="n">Forschungsmodul</span><span class="o">/</span><span class="n">project_msc05</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">adhd</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/adhd
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pheno_final</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;pheno_final.csv&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Path to resting state files</span>
+<span class="n">rest_files</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;/data/adhd/data/</span><span class="si">%s</span><span class="s1">/</span><span class="si">%s</span><span class="s1">_rest_tshift_RPI_voreg_mni.nii.gz&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">sub</span><span class="p">,</span> <span class="n">sub</span><span class="p">)</span> <span class="k">for</span> <span class="n">sub</span> <span class="ow">in</span> <span class="n">sub_idx</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Path to counfound files</span>
+<span class="n">confound_files</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;/data/adhd/data/</span><span class="si">%s</span><span class="s1">/</span><span class="si">%s</span><span class="s1">_regressors.csv&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">sub</span><span class="p">,</span> <span class="n">sub</span><span class="p">)</span> <span class="k">for</span> <span class="n">sub</span> <span class="ow">in</span> <span class="n">sub_idx</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="load-atlas">
+<h1>Load atlas<a class="headerlink" href="#load-atlas" title="Permalink to this heading">#</a></h1>
+<p>The <a class="reference external" href="https://journals.physiology.org/doi/full/10.1152/jn.00338.2011">Yeo atlas (2011)</a> contains a parcellation of the cerebral cortex into 7 networks like the frontoparietal network, the default mold network, the ventral attention network and the somatomotor network. Since these are regions of interest for this project, the atlas appears to be well suited.</p>
+<p>First, the atlas must be loaded. This will be done using <a class="reference external" href="https://nilearn.github.io/dev/modules/generated/nilearn.datasets.fetch_atlas_yeo_2011.html">nilearn.datasets.fetch_atlas_yeo_2011</a>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">atlas_yeo</span> <span class="o">=</span> <span class="n">datasets</span><span class="o">.</span><span class="n">fetch_atlas_yeo_2011</span><span class="p">(</span><span class="n">data_dir</span><span class="o">=</span><span class="s1">&#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/yeo_atlas&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>With the following code the contents of the loaded dictionary can be explored.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">atlas_yeo</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;description&#39;: &quot;Yeo 2011 Atlas\n\n\nNotes\n-----\nThis atlas provides a labeling of some cortical voxels in the MNI152\nspace.\n\nFour versions of the atlas are available, according to the cortical\nmodel (thick or thin cortical surface) and to the number of regions\nconsidered (7 or 17).\n\nContent\n-------\n    :&#39;anat&#39;: Background anatomical image for reference and visualization\n    :&#39;thin_7&#39;: Cortical parcelation into 7 regions, thin cortical model\n    :&#39;thin_17&#39;: Cortical parcelation into 17 regions, thin cortical model\n    :&#39;thick_7&#39;: Cortical parcelation into 17 regions, thick cortical model\n    :&#39;thick_17&#39;: Cortical parcelation into 17 regions, thick cortical model\n    :&#39;colors_7&#39;: Text file for the coloring of 7-regions parcellation\n    :&#39;colors_17&#39;: Text file for the coloring of 17-regions parcellation\n\n\nReferences\n----------\nFor more information on this dataset&#39;s structure, see\nhttp://surfer.nmr.mgh.harvard.edu/fswiki/CorticalParcellation_Yeo2011\n\nYeo BT, Krienen FM, Sepulcre J, Sabuncu MR, Lashkari D, Hollinshead M,\nRoffman JL, Smoller JW, Zollei L., Polimeni JR, Fischl B, Liu H,\nBuckner RL. The organization of the human cerebral cortex estimated by\nintrinsic functional connectivity. J Neurophysiol 106(3):1125-65, 2011.\n\nLicence: unknown.\n&quot;,
+ &#39;thin_7&#39;: &#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/yeo_atlas/yeo_2011/Yeo_JNeurophysiol11_MNI152/Yeo2011_7Networks_MNI152_FreeSurferConformed1mm.nii.gz&#39;,
+ &#39;thick_7&#39;: &#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/yeo_atlas/yeo_2011/Yeo_JNeurophysiol11_MNI152/Yeo2011_7Networks_MNI152_FreeSurferConformed1mm_LiberalMask.nii.gz&#39;,
+ &#39;thin_17&#39;: &#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/yeo_atlas/yeo_2011/Yeo_JNeurophysiol11_MNI152/Yeo2011_17Networks_MNI152_FreeSurferConformed1mm.nii.gz&#39;,
+ &#39;thick_17&#39;: &#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/yeo_atlas/yeo_2011/Yeo_JNeurophysiol11_MNI152/Yeo2011_17Networks_MNI152_FreeSurferConformed1mm_LiberalMask.nii.gz&#39;,
+ &#39;colors_7&#39;: &#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/yeo_atlas/yeo_2011/Yeo_JNeurophysiol11_MNI152/Yeo2011_7Networks_ColorLUT.txt&#39;,
+ &#39;colors_17&#39;: &#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/yeo_atlas/yeo_2011/Yeo_JNeurophysiol11_MNI152/Yeo2011_17Networks_ColorLUT.txt&#39;,
+ &#39;anat&#39;: &#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/yeo_atlas/yeo_2011/Yeo_JNeurophysiol11_MNI152/FSL_MNI152_FreeSurferConformed_1mm.nii.gz&#39;}
+</pre></div>
+</div>
+</div>
+</div>
+<p>As mentioned above, the parcellation into 7 networks is used in this project. So, in the next step the corresponding file is selected.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">atlas_file</span> <span class="o">=</span> <span class="n">atlas_yeo</span><span class="o">.</span><span class="n">thick_7</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>In order to get a better picture of the brain parcellation, the yeo atlas is visualized in the next step.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">nilearn</span> <span class="kn">import</span> <span class="n">plotting</span>
+<span class="n">plotting</span><span class="o">.</span><span class="n">plot_roi</span><span class="p">(</span><span class="n">atlas_file</span><span class="p">,</span> <span class="n">draw_cross</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">annotate</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">cut_coords</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">),</span> <span class="n">colorbar</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;Paired&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/nwiltberg/miniconda3/envs/neuro_ai/lib/python3.7/site-packages/nilearn/plotting/img_plotting.py:348: FutureWarning: Default resolution of the MNI template will change from 2mm to 1mm in version 0.10.0
+  anat_img = load_mni152_template()
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;nilearn.plotting.displays._slicers.OrthoSlicer at 0x7f2d65319be0&gt;
+</pre></div>
+</div>
+<img alt="../_images/2ef0cf6b40db12962b361f5a14f62913360b27ad35f61923774c0513e5844663.png" src="../_images/2ef0cf6b40db12962b361f5a14f62913360b27ad35f61923774c0513e5844663.png" />
+</div>
+</div>
+<p>We can also explore the labels stored in the loaded dictionary of the atlas.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">atlas_yeo</span><span class="o">.</span><span class="n">colors_7</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0            NONE   0   0   0   0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1     7Networks_1 120  18 134   0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2     7Networks_2  70 130 180   0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3     7Networks_3   0 118  14   0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4     7Networks_4 196  58 250   0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5     7Networks_5 220 248 164   0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6     7Networks_6 230 148  34   0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7     7Networks_7 205  62  78   0</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./code"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+            </article>
+            
+
+            
+            
+            <footer class="bd-footer-article">
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+  <a class='left-prev' id="prev-link" href="Literature_Review.html" title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+          <p class="prev-next-subtitle">previous</p>
+          <p class="prev-next-title">Introduction and Conception of the Research Question</p>
+      </div>
+  </a>
+  <a class='right-next' id="next-link" href="Data_Analysis.html" title="next page">
+  <div class="prev-next-info">
+      <p class="prev-next-subtitle">next</p>
+      <p class="prev-next-title">Data Analysis</p>
+  </div>
+  <i class="fa-solid fa-angle-right"></i>
+  </a>
+</div>
+            </footer>
+            
+          </div>
+          
+          
+          
+            <div class="bd-sidebar-secondary bd-toc">
+              
+<div class="toc-item">
+  
+<div class="tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+</div>
+<nav id="bd-toc-nav" class="page-toc">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-data">
+   Load data
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-atlas">
+   Load atlas
+  </a>
+ </li>
+</ul>
+
+</nav>
+</div>
+
+            </div>
+          
+          
+        </div>
+        <footer class="bd-footer-content">
+          <div class="bd-footer-content__inner">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Nastasja von Wiltberg
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+<p class="copyright">
+
+    &copy; Copyright 2023.<br>
+
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    <p class="last-updated">
+Last updated on None.<br>
+</p>
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </div>
+        </footer>
+        
+
+      </main>
+    </div>
+  </div>
+
+  
+    
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=796348d33e8b1d947c94"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=796348d33e8b1d947c94"></script>
+
+  </body>
+</html>
