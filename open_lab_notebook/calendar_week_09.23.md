@@ -21,8 +21,7 @@
     - copied my files into this repository
     - adapted the Table of Content and the Config file
     - tried to set up the website
-- second try to create jupyter book and website -> worked, but further adaptions are needed (2 hours)
-- worked on chapter about data and project management (1,5 hours)
+
 
 
 ## Problems
@@ -36,4 +35,6 @@
 
 
 ## Goals & tasks for next week
-- 
+- adapt index (startsite)
+- write chapter about data and project management
+- adapt interactive plot in data analysis
