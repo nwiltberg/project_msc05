@@ -24,6 +24,10 @@ The page contains the following chapters:
 
    The derivation of the research question and an overview of current studies
 
+* [Data- and Projectmanagement](https://nwiltberg.github.io/project_msc05/code/Data_and_Projectmanagement.html)
+
+   Description and Evaluation of the dataset and information regarding verion control, GitHub, Zotero, the Open Lab Notebook and the Computational Environment
+
 * [Data Exploration](https://nwiltberg.github.io/project_msc05/code/Data_Exploration.html#)
 
    Exploration of the dataset used in this project
