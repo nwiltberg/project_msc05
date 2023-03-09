@@ -2,6 +2,7 @@ root: general_information/index
 format: jb-book
 chapters:
 - file: code/Literature_Review
+- file: code/Data_and_Projectmanagement
 - file: code/Data_Exploration
 - file: code/Data_Analysis
 - file: code/Discussion
