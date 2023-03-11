@@ -8,6 +8,8 @@ More information about the dataset used in this project and concerning the proje
 
 The jupyter notebook 'Data_Exploration' describes how the data was downloaded and how it is structured. It also includes the first steps to prepare the data for analysis.
 
-The jupyter notebook 'Data_Analysis contains all the steps that were taken to analyze the data. So the calculation of the functional connectivity, the classification using a supervised learning algorithm and the clustering using an unsupervised learning algorithm.  
+The jupyter notebook 'Data_Analysis contains all the steps that were taken to analyze the data. So the calculation of the functional connectivity, the classification using a supervised learning algorithm and the clustering using an unsupervised learning algorithm. 
 
-Furthermore, you can find the computing environment in this folder which was used to run the code.
+An evaluation and discussion of the results of this project can be found in the notebook 'Discussion'.
+
+Furthermore, you can download the computing environment which was used to run the code.
