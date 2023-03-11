@@ -11,7 +11,7 @@
 - weekly meeting (30 min.)
     talked about jupyter book and interactive plot
 - second try to create jupyter book and website -> worked, but further adaptions are needed (2 hours)
-- worked on chapter about data and project management (1,5 hours)
+- worked on chapter about data and project management (2,5 hours)
 
 
 ## Problems
