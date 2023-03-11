@@ -44,3 +44,4 @@ The page contains the following chapters:
 
 ## Acknowledgements
 
+My work on this research project was supported by Peer Herholz, Michael Ernst and Maren Wehrheim, who are team members of the Departement of Neurocognitive Psychology at the Goethe University Frankfurt am Main. I want to thank you for your guidance and introduction to the methods of computational neuroscience and your help with any kind of problem that came up in this project. The course page for ["Cognitive & computational neuroscience: an introduction to machine/deep learning and neuro-data-science”](https://peerherholz.github.io/Cog_Com_Neuro_ML_DL/index.html) also enabled this project. 
