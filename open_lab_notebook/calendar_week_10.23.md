@@ -5,6 +5,7 @@
 - write chapter about data and project management
 - adapt interactive plot in data analysis
 - write acknowledgements
+- check everything and correct mistakes
 
 
 
@@ -15,6 +16,7 @@
 - worked on chapter about data and project management (2,5 hours)
 - adapted interactive plot in data analysis to display it on github page (30 min.)
 - wrote acknowledgements and did some small adjustments for github page (30 min.)
+- checked for mistaked and corrected them (1 hour)
 
 
 ## Problems
