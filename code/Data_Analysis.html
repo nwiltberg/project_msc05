@@ -434,12 +434,12 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="data-analysis">
 <h1>Data Analysis<a class="headerlink" href="#data-analysis" title="Permalink to this heading">#</a></h1>
-<p>In this section, the various steps of the data analysis are described. More details on loading the data and exploring it can be found in the section “data exploration”.</p>
-<p>Then the functional connectomes for the regions of interests are computed. For this purpose, the time series underlying the functional connnectome are extracted first. These time series represent the measurement points of activity over time. After extracting them for each brain region of the chosen cerebral parcellation, the correlation for all pairs of the parcels are calculated.</p>
-<p>In a next step, a supervised learning algorithm is used to test if it is possible to predict the diagnosis of a subject based on its functional connectome. Subsequently, an unsupervised learning algorithm is used to to cluster the data into subgroupes regardless of the diagnosis of the subjects. Based on the discussion in the literature review section, it is expected that the subtypes of ADHD can be predicted using the functional connectomes. In addition, it is assumed that the clustering also fits the classification of the subjects in terms of their diagnosis.</p>
+<p>In this section, the various steps of the data analysis are described. More details on loading the data and exploring it can be found in the section <a class="reference external" href="https://nwiltberg.github.io/project_msc05/code/Data_Exploration.html#">Data Exploration</a>.</p>
+<p>Then the functional connectomes for the regions of interests are computed. For this purpose, the time series underlying the functional connnectome are extracted first. These time series represent the measurement points of activity over time. After extracting them for each brain region of the chosen cerebral parcellation, the correlation for all pairs of the parcels are calculated and serve as measure for the functional connectome.</p>
+<p>In a next step, a supervised learning algorithm is used to test if it is possible to predict the diagnosis of a subject based on its functional connectome. Subsequently, an unsupervised learning algorithm is used to to cluster the data into subgroupes regardless of the diagnosis of the subjects. Based on the studies described in the <a class="reference external" href="https://nwiltberg.github.io/project_msc05/code/Literature_Review.html">Literature Review</a>, it is expected that the subtypes of ADHD can be predicted using the functional connectomes. In addition, it is assumed that the clustering also fits the classification of the subjects in terms of their diagnosis.</p>
 <section id="recap-data">
 <h2>0. Recap Data<a class="headerlink" href="#recap-data" title="Permalink to this heading">#</a></h2>
-<p>First, the required modules have to be imported and the dataset has to be reloaded. More information on loading the data and the data set can be found in the notebook about data exploration.</p>
+<p>First, the required modules have to be imported and the dataset has to be reloaded. More information on loading the data and the dataset can be found in the chapter <a class="reference external" href="https://nwiltberg.github.io/project_msc05/code/Data_Exploration.html">Data Exploration</a>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">nilearn</span>
@@ -542,7 +542,7 @@ Reading unicode strings without specifying the encoding argument is deprecated. 
 </div>
 </div>
 </div>
-<p>As already mentioned in the notebook ‘data exploration’, the Yeo atlas is being used for brain parcellation. Since the parcelling is to be used to calculate the connectivity between the different regions, the altas must also be loaded here.</p>
+<p>As already mentioned in the <a class="reference external" href="https://nwiltberg.github.io/project_msc05/code/Data_Exploration.html">Data Exploration</a>, the Yeo atlas is being used for brain parcellation. Since the parcelling is to be used to calculate the connectivity between the different regions, the altas must also be loaded here.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">atlas_yeo</span> <span class="o">=</span> <span class="n">datasets</span><span class="o">.</span><span class="n">fetch_atlas_yeo_2011</span><span class="p">(</span><span class="n">data_dir</span><span class="o">=</span><span class="s1">&#39;/mnt/c/Users/nasta/Desktop/Forschungsmodul/project_msc05/data/yeo_atlas&#39;</span><span class="p">)</span>
@@ -791,7 +791,7 @@ Reading unicode strings without specifying the encoding argument is deprecated. 
 <img alt="../_images/0e43f5fa1d9016309672ef61a86c90815708fd9b046d092615db26908852d8eb.png" src="../_images/0e43f5fa1d9016309672ef61a86c90815708fd9b046d092615db26908852d8eb.png" />
 </div>
 </div>
-<p>At this point it is important to note that the Yeo atlas does not only contain networks in the left hemisphere, as it first appears. But the seven networks cover larger areas in the left than in the right hemisphere. So the center of each of them lies in the left hemisphere. The visualization of the parcellation can be viewed in the notebook ‘data exploration’.</p>
+<p>At this point it is important to note that the Yeo atlas does not only contain networks in the left hemisphere, as it first appears. But the seven networks cover larger areas in the left than in the right hemisphere. So the center of each of them lies in the left hemisphere. The visualization of the parcellation can be viewed in the section <a class="reference external" href="https://nwiltberg.github.io/project_msc05/code/Data_Exploration.html">Data Exploration</a>.</p>
 <p>Now the mean correlation matrix is plotted in the same way as described above for a subject.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -867,7 +867,7 @@ Name: DX, dtype: int64
 <img alt="../_images/34bc27527bcd55cf6f24355f47b9218efa68f085a5d7f17778c8f738f2a16973.png" src="../_images/34bc27527bcd55cf6f24355f47b9218efa68f085a5d7f17778c8f738f2a16973.png" />
 </div>
 </div>
-<p>The plot shows that there is no even distribution and the diagnosis with the number 2 does not even occur in the data set used here.</p>
+<p>The plot shows that there is no even distribution and the diagnosis with the number 2 does not even occur in the dataset used here.</p>
 <p>For the further steps we need the group variable in a np.array format. So, it is now formatted accordingly.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -907,7 +907,7 @@ The least populated class in y has only 5 members, which is less than n_splits=1
 </div>
 </div>
 </div>
-<p>In the next step, ‘cross_val_predict’ is used to generate predictions each iteration. <a class="reference external" href="https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html">‘LinearSCV’</a> will be set as estimator, which stands for Linear Support Vector Classification, a special class of <a class="reference external" href="https://scikit-learn.org/stable/auto_examples/svm/plot_separating_hyperplane.html#sphx-glr-auto-examples-svm-plot-separating-hyperplane-py">Support Vector Machines (SVM)</a>. SVMs are linear models that can be used for classification. They take data as input and try to find an ideal line to separate it into discrete classes. The LinearSCV does this using linear lines. So it can be applied when the kernel is assumed to be linear, meaning the data must be linearly separable. Furthermore, it  implements “one-vs-rest” multi-class strategy, thus training n_classes models.</p>
+<p>In the next step, <a class="reference external" href="https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_predict.html">‘cross_val_predict’</a> is used to generate predictions each iteration. <a class="reference external" href="https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html">‘LinearSCV’</a> will be set as estimator, which stands for Linear Support Vector Classification, a special class of <a class="reference external" href="https://scikit-learn.org/stable/auto_examples/svm/plot_separating_hyperplane.html#sphx-glr-auto-examples-svm-plot-separating-hyperplane-py">Support Vector Machines (SVM)</a>. SVMs are linear models that can be used for classification. They take data as input and try to find an ideal line to separate it into discrete classes. The LinearSCV does this using linear lines. So it can be applied when the kernel is assumed to be linear, meaning the data must be linearly separable. Furthermore, it  implements “one-vs-rest” multi-class strategy, thus training n_classes models.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.svm</span> <span class="kn">import</span> <span class="n">LinearSVC</span>
@@ -1286,9 +1286,9 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </section>
 <section id="more-data-from-brainlife">
 <h2>6. More Data from brainlife<a class="headerlink" href="#more-data-from-brainlife" title="Permalink to this heading">#</a></h2>
-<p>The steps described above were performed on a data set consisting of only 40 subjects. Moreover, these subjects are not equally distributed among the different diagnostic groups. As a consequence, the results obtained so far are hardly interpretable. For this reason, an attempt was made to load a larger sub-data set of the ADHD 200 sample using.</p>
+<p>The steps described above were performed on a dataset consisting of only 40 subjects. Moreover, these subjects are not equally distributed among the different diagnostic groups. As a consequence, the results obtained so far are hardly interpretable. For this reason, an attempt was made to load a larger sub-dataset of the ADHD-200 sample using.</p>
 <p>For this purpose, raw data of the <a class="reference external" href="http://datasets.datalad.org/adhd200/RawDataBIDS/NYU/">NYU subsample available on datalad</a> were imported to <span class="xref myst">brainlife</span>. On brainlife the data were preprocessed using the Configurable Pipeline for the Analysis of Connectomes (<a class="reference external" href="https://brainlife.io/app/5f3593e84615e04651bf9364">C-PAC</a>).</p>
-<p>However, problems occurred when downloading the output files from brainlife. More information about this can be found in the open lab notebook. Overall, the attempt to obtain a larger data set failed.</p>
+<p>However, problems occurred when downloading the output files from brainlife. More information about this can be found in the open lab notebook. Overall, the attempt to obtain a larger dataset failed.</p>
 <p>The following code was used to try to download the data.</p>
 <section id="load-authorization-token">
 <h3>Load authorization token<a class="headerlink" href="#load-authorization-token" title="Permalink to this heading">#</a></h3>

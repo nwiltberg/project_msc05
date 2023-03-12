@@ -426,13 +426,13 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="data-exploration">
 <h1>Data Exploration<a class="headerlink" href="#data-exploration" title="Permalink to this heading">#</a></h1>
 <p>This notebook contains the first steps of data processing regarding the exploration of the data.</p>
-<p>First the dataset is loaded. The next step describes which files the data set contains and how these files are structured.</p>
+<p>First the dataset is loaded. The next step describes which files the dataset contains and how these files are structured.</p>
 <p>Afterwards, the Yeo atlas is loaded which will be used for the brain parcellation.</p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="load-the-dataset">
 <h1>Load the dataset<a class="headerlink" href="#load-the-dataset" title="Permalink to this heading">#</a></h1>
-<p>In this project a preprocessed resting-state data set is used which is provided by <a class="reference external" href="https://nilearn.github.io/dev/modules/generated/nilearn.datasets.fetch_adhd.html">Nilearn</a>. It contains preprocessed data of the ADHD-200 sample, an initiative aiming at investigating the neural basis of ADHD (<a class="reference external" href="https://www.sciencedirect.com/science/article/abs/pii/S105381191630283X?via%3Dihub">Bellec et al., 2017</a>). More information about the preprocessed ADHD-200 sample can be found <a class="reference external" href="http://preprocessed-connectomes-project.org/adhd200/">here</a>.</p>
-<p>First, the open data set is loaded:</p>
+<p>In this project a preprocessed resting-state dataset is used which is provided by <a class="reference external" href="https://nilearn.github.io/dev/modules/generated/nilearn.datasets.fetch_adhd.html">Nilearn</a>. It contains preprocessed data of the ADHD-200 sample, an initiative aiming at investigating the neural basis of ADHD (<a class="reference external" href="https://www.sciencedirect.com/science/article/abs/pii/S105381191630283X?via%3Dihub">Bellec et al., 2017</a>). More information about the preprocessed ADHD-200 sample can be found <a class="reference external" href="http://preprocessed-connectomes-project.org/adhd200/">here</a>.</p>
+<p>First, the open dataset is loaded:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">nilearn</span>
@@ -621,7 +621,7 @@ document.write(`
 </table>
 </div></div></div>
 </div>
-<p>The Dataset also contains a file with phenotypic information like age, sex and diagnostic information. Let’s take a closer look at this file as well.</p>
+<p>The dataset also contains a file with phenotypic information like age, sex and diagnostic information. Let’s take a closer look at this file as well.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">glob</span>
@@ -1404,7 +1404,7 @@ Name: adhd, dtype: int64
 </table>
 </div></div></div>
 </div>
-<p>Great, this shows that the column ‘ScanDir ID’ stores the same ID as in the subdataset we want to use. This is important, because now we can filter out the phenotypic information for eacht participant our dataset contains.</p>
+<p>Great, this shows that the column ‘ScanDir ID’ stores the same ID as in the subdataset we want to use. This is important, because now we can filter out the phenotypic information for each participant our dataset contains.</p>
 <p>In the course of the data analysis, the data of the individual subjects is accessed using the subject ids. So it is necessary to create a list of all subject ids.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1447,7 +1447,7 @@ Name: adhd, dtype: int64
 </div>
 </div>
 </div>
-<p>Now the list of the subject ids kann be used to filter out the phenotypic information for the corresponding participants. Let’s store this in a new variable called ‘pheno_filt’.</p>
+<p>Now the list of the subject ids can be used to filter out the phenotypic information for the corresponding participants. Let’s store this in a new variable called ‘pheno_filt’.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pheno_filt</span> <span class="o">=</span> <span class="n">pheno_all</span><span class="p">[</span><span class="n">pheno_all</span><span class="p">[</span><span class="s1">&#39;ScanDir ID&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">sub_idx</span><span class="p">)]</span>
