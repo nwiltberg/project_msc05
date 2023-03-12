@@ -10,13 +10,9 @@ titlesonly: true
 
 # Welcome!
 
-````{margin}
-```{warning}
-These pages are currently under construction and will be updated continuously.
-Please visit these pages again in the next few weeks for further information.
-````
-
 Hello everyone and welcome to the page of a research project created as part of a module of the neuro-major at Goethe-University Frankfurt.
+
+The aim of this project is to investigate functional connectivity in patients with ADHD using resting state fmri data.
 
 The page contains the following chapters:
 
@@ -26,7 +22,7 @@ The page contains the following chapters:
 
 * [Data- and Projectmanagement](https://nwiltberg.github.io/project_msc05/code/Data_and_Projectmanagement.html)
 
-   Description and Evaluation of the dataset and information regarding verion control, GitHub, Zotero, the Open Lab Notebook and the Computational Environment
+   Description and evaluation of the dataset and information regarding verion control, GitHub, Zotero, the Open Lab Notebook and the Computational Environment
 
 * [Data Exploration](https://nwiltberg.github.io/project_msc05/code/Data_Exploration.html#)
 
@@ -38,7 +34,7 @@ The page contains the following chapters:
 
 * [Discussion](https://nwiltberg.github.io/project_msc05/code/Discussion.html)
 
-   Evaluation and Discussion of the results of the Data Analysis
+   Evaluation and discussion of the results of the Data Analysis
 
 
 
