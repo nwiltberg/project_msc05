@@ -10,12 +10,6 @@ titlesonly: true
 
 # Welcome!
 
-````{margin}
-```{warning}
-These pages are currently under construction and will be updated continuously.
-Please visit these pages again in the next few weeks for further information.
-````
-
 Hello everyone and welcome to the page of a research project created as part of a module of the neuro-major at Goethe-University Frankfurt.
 
 The aim of this project is to investigate functional connectivity in patients with ADHD using resting state fmri data.
